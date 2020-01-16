@@ -37,4 +37,5 @@ cc_library_static {
     ],
     include_dirs: ["frameworks/compile/mclinker/include/mcld/Script"],
     header_libs: ["FlexLexer"],
+    cflags: ["-Wno-error-invalid-noreturn"],
 }
