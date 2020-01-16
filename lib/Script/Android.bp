@@ -35,5 +35,6 @@ cc_library_static {
         "UnaryOp.cpp",
         "WildcardPattern.cpp",
     ],
+    cflags: ["-Wno-error-invalid-noreturn"],
     include_dirs: ["frameworks/compile/mclinker/include/mcld/Script"],
 }
